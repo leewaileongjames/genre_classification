@@ -1,0 +1,22 @@
+name: download_data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.20.3
+  - pandas=1.2.3
+  - requests=2.24.0
+  - pip=20.3.3
+  - scikit-learn=0.24.1
+  - matplotlib==3.2.2
+  - plotly==4.4.1
+  - pillow=8.1.2
+  - pyarrow=2.0
+  - pytest=6.2.2
+  - scipy=1.6.1
+  - mlflow=1.14.1
+  - hydra-core=1.0.6
+  - pip:
+      - wandb==0.10.21
+      - hydra-joblib-launcher==1.1.2
+      - omegaconf==2.0.6
